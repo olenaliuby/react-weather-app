@@ -1,3 +1,7 @@
+Hi! It's Weather App created with love.
+
+Enter city and see your weather details.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
