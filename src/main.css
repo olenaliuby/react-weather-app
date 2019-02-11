@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+    background-color: #aae1ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 3em;
+    width: 27em;
+}
+
+.search-panel form {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 1em;
+    box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.1);
+}
+
+.search-panel input {
+    background: #fff;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0.5em 1em;
+    width: 100%;
+}
+
+.search-panel button {
+    background: #0A9ABC;
+    color: #fff;
+    padding: 0.9em 1.5em;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+.search-panel button:hover {
+    background: #097994;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #EDF2F7;
+    box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.1);
+    color: #0A9ABC;
+    max-width: 27em;
+}
+
+.date-container {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 1em;
+    color: inherit;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.weather-conditions {
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5em;
+    color: inherit;
+}
+
+.weather-conditions>div>div {
+    padding: 0.3em;
+}
+
+.weather-temperature {
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.error {
+    color: #0A9ABC;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.weather-img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.search-panel__hide-input {
+    display: none;
+}
+
+.weather-city {
+    font-size: 2em;
+}
