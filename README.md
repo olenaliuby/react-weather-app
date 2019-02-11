@@ -1,6 +1,6 @@
 Hi! It's Weather App created with love.
 
-Enter city and see your weather details.
+Enter city and see your weather details - [DEMO](https://olencha.github.io/react-weather-app/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
